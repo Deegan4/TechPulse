@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, viewport-fit=cover">
+    <title>TechPulse - Latest Tech News</title>
+    <meta name="description" content="Stay updated with the latest technology news, reviews, and insights from around the world at TechPulse.">
+    <meta name="keywords" content="tech news, technology, AI, gadgets, software, tech reviews">
+    <meta name="author" content="TechPulse">
+    <meta property="og:title" content="TechPulse - Latest Tech News">
+    <meta property="og:description" content="Your daily dose of cutting-edge technology news, reviews, and insights from around the world.">
+    <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/7693/7693316.png">
+    <meta property="og:url" content="https://techpulse.com">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="TechPulse">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://img.icons8.com">
+    <link rel="preconnect" href="https://cdn-icons-png.flaticon.com">
+    <link rel="preload" href="https://cdn-icons-png.flaticon.com/512/7693/7693316.png" as="image">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/7693/7693316.png" type="image/png">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/7693/7693316.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="https://cdn-icons-png.flaticon.com/512/7693/7693316.png" alt="TechPulse Logo" style="height: 50px;">
+                    <span>Tech<span>Pulse</span></span>
+                </div>
+                <div class="nav-container">
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                        <span class="menu-icon"></span>
+                    </button>
+                    <nav>
+                        <ul id="mainNav">
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">AI & ML</a></li>
+                            <li><a href="#">Gadgets</a></li>
+                            <li><a href="#">Software</a></li>
+                            <li><a href="#">Business</a></li>
+                        </ul>
+                    </nav>
+                    <div class="search-container">
+                        <form class="search-form" action="#" method="get">
+                            <input type="text" class="search-input" placeholder="Search articles..." aria-label="Search">
+                            <button type="submit" class="search-button" aria-label="Submit search">
+                                <img src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png" alt="Search" class="search-icon">
+                            </button>
+                        </form>
+                    </div>
+                    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/moon-symbol.png" alt="Dark mode" class="dark-mode-icon">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Stay Ahead with the Latest in Tech</h1>
+                    <p>Your daily dose of cutting-edge technology news, reviews, and insights from around the world.</p>
+                    <a href="#" class="hero-btn">Explore Latest News</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured News -->
+        <section class="container">
+            <h2 class="section-title">Featured News</h2>
+            <div class="featured-grid">
+                <div class="news-card">
+                    <div class="card-img">
+                        <span class="category-badge">AI</span>
+                        <img src="https://images.unsplash.com/photo-1677442135136-760c813dce9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" alt="AI News">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">New AI Model Achieves Breakthrough in Natural Language Understanding</h3>
+                        <p class="card-excerpt">Researchers unveil a revolutionary AI model capable of understanding context and nuance at near-human levels, promising major advances in human-computer interaction.</p>
+                        <div class="card-meta">
+                            <span>March 5, 2025</span>
+                            <span>5 min read</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="card-img">
+                        <span class="category-badge">Gadgets</span>
+                        <img src="https://images.unsplash.com/photo-1626387346567-68d0b1ee4f58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" alt="AR Glasses">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Next-Gen AR Glasses Set to Transform How We Interact with Digital Content</h3>
+                        <p class="card-excerpt">The latest augmented reality glasses boast all-day battery life, seamless integration with smartphones, and photorealistic overlays.</p>
+                        <div class="card-meta">
+                            <span>March 4, 2025</span>
+                            <span>4 min read</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <div class="card-img">
+                        <span class="category-badge">Business</span>
+                        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Tech Merger">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Major Tech Merger Could Reshape Cloud Computing Landscape</h3>
+                        <p class="card-excerpt">Industry giants announce surprise merger that analysts say could challenge the dominance of current cloud service providers.</p>
+                        <div class="card-meta">
+                            <span>March 3, 2025</span>
+                            <span>6 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest News -->
+        <section class="container">
+            <h2 class="section-title">Latest News</h2>
+            <div class="news-grid">
+                <div class="news-card small-card">
+                    <div class="card-img">
+                        <span class="category-badge">Software</span>
+                        <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Software Update">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Popular Operating System Gets Major Security Overhaul</h3>
+                        <p class="card-excerpt">The update focuses on zero-trust architecture and advanced threat protection.</p>
+                        <div class="card-meta">
+                            <span>March 2, 2025</span>
+                            <span>3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-card small-card">
+                    <div class="card-img">
+                        <span class="category-badge">Startups</span>
+                        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Startup">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Healthcare Tech Startup Raises $200M in Series C Funding</h3>
+                        <p class="card-excerpt">The company's AI-driven diagnostic platform has shown promising results in early trials.</p>
+                        <div class="card-meta">
+                            <span>March 2, 2025</span>
+                            <span>3 min read</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-card small-card">
+                    <div class="card-img">
+                        <span class="category-badge">Hardware</span>
+                        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Quantum Computer">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Quantum Computing Milestone: 500-Qubit Processor Unveiled</h3>
+                        <p class="card-excerpt">The new processor represents a significant step toward practical quantum computing applications.</p>
+                        <div class="card-meta">
+                            <span>March 1, 2025</span>
+                            <span>4 min read</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news-card small-card">
+                    <div class="card-img">
+                        <span class="category-badge">Apps</span>
+                        <img src="https://images.unsplash.com/photo-1616469829941-c7200edec809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Mobile App">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">New Social Media App Focuses on Privacy and Mental Health</h3>
+                        <p class="card-excerpt">The platform eliminates like counts and algorithmic feeds in favor of chronological content.</p>
+                        <div class="card-meta">
+                            <span>March 1, 2025</span>
+                            <span>3 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trending Topics -->
+        <section class="container trending-topics">
+            <h2 class="section-title">Trending Topics</h2>
+            <div class="topic-list">
+                <a href="#" class="topic-item">
+                    <div class="topic-icon">
+                        <img src="https://img.icons8.com/fluency/48/000000/artificial-intelligence.png" alt="AI">
+                    </div>
+                    <span class="topic-name">Artificial Intelligence</span>
+                </a>
+                <a href="#" class="topic-item">
+                    <div class="topic-icon">
+                        <img src="https://img.icons8.com/fluency/48/000000/blockchain-technology.png" alt="Blockchain">
+                    </div>
+                    <span class="topic-name">Blockchain</span>
+                </a>
+                <a href="#" class="topic-item">
+                    <div class="topic-icon">
+                        <img src="https://img.icons8.com/fluency/48/000000/cyber-security.png" alt="Cybersecurity">
+                    </div>
+                    <span class="topic-name">Cybersecurity</span>
+                </a>
+                <a href="#" class="topic-item">
+                    <div class="topic-icon">
+                        <img src="https://img.icons8.com/fluency/48/000000/cloud.png" alt="Cloud">
+                    </div>
+                    <span class="topic-name">Cloud Computing</span>
+                </a>
+                <a href="#" class="topic-item">
+                    <div class="topic-icon">
+                        <img src="https://img.icons8.com/fluency/48/000000/internet-of-things.png" alt="IoT">
+                    </div>
+                    <span class="topic-name">IoT</span>
+                </a>
+                <a href="#" class="topic-item">
+                    <div class="topic-icon">
+                        <img src="https://img.icons8.com/fluency/48/000000/5g.png" alt="5G">
+                    </div>
+                    <span class="topic-name">5G Networks</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Featured Video -->
+        <section class="container featured-video">
+            <h2 class="section-title">Featured Video</h2>
+            <div class="video-container">
+                <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Featured Video Thumbnail" class="video-thumbnail">
+                <div class="play-button"></div>
+            </div>
+            <div class="video-info">
+                <h3 class="video-title">Tech Conference 2025: The Future of Computing</h3>
+                <p class="video-description">Watch the highlights from this year's biggest tech conference, featuring keynotes from industry leaders and demonstrations of groundbreaking technologies.</p>
+                <div class="card-meta">
+                    <span>March 1, 2025</span>
+                    <span>15 min watch</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="container photo-gallery">
+            <h2 class="section-title">Tech in Pictures</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Tech Event" class="gallery-img">
+                    <div class="gallery-caption">
+                        <h4 class="gallery-title">Annual Developer Conference</h4>
+                        <p class="gallery-subtitle">San Francisco, CA - February 2025</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80" alt="New Gadget" class="gallery-img">
+                    <div class="gallery-caption">
+                        <h4 class="gallery-title">Next-Gen Smartphone Launch</h4>
+                        <p class="gallery-subtitle">Product Showcase</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="Robotics" class="gallery-img">
+                    <div class="gallery-caption">
+                        <h4 class="gallery-title">Advances in Robotics</h4>
+                        <p class="gallery-subtitle">Research Lab Tour</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80" alt="Data Center" class="gallery-img">
+                    <div class="gallery-caption">
+                        <h4 class="gallery-title">Inside Modern Data Centers</h4>
+                        <p class="gallery-subtitle">Cloud Infrastructure</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="VR Gaming" class="gallery-img">
+                    <div class="gallery-caption">
+                        <h4 class="gallery-title">VR Gaming Evolution</h4>
+                        <p class="gallery-subtitle">Gaming Expo 2025</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Updated on Tech Trends</h2>
+                    <p>Subscribe to our newsletter and receive the latest tech news, reviews, and exclusive content directly in your inbox.</p>
+                    <form class="subscribe-form">
+                        <input type="email" class="subscribe-input" placeholder="Your email address">
+                        <button type="submit" class="subscribe-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About TechPulse</h3>
+                    <p>TechPulse is your trusted source for the latest technology news, in-depth reviews, and expert analysis on the digital world.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">AI & Machine Learning</a></li>
+                        <li><a href="#">Gadgets & Hardware</a></li>
+                        <li><a href="#">Software & Apps</a></li>
+                        <li><a href="#">Business & Startups</a></li>
+                        <li><a href="#">Cybersecurity</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <img src="https://img.icons8.com/fluency/48/000000/facebook.png" alt="Facebook" width="20" height="20">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="https://img.icons8.com/fluency/48/000000/twitter.png" alt="Twitter" width="20" height="20">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Instagram" width="20" height="20">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="https://img.icons8.com/fluency/48/000000/linkedin.png" alt="LinkedIn" width="20" height="20">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 TechPulse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top"></a>
+    
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner"></div>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html> 
